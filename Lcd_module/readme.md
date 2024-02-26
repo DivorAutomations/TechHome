@@ -1,7 +1,7 @@
 # Tech Home
 ## Fan Module
 
-<p align="center>
+<p align="center">
 <image src="lcd module front.png">
 </p>
 
