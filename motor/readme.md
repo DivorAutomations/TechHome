@@ -1,6 +1,10 @@
 # Tech Home
 ## Fan Module
 
+<p align="center>
+<image src="Fan Module.png">
+</p>
+
 ### Pin Configuration
 
 | MARKING | DESCRIPTION | PINS 
@@ -31,3 +35,6 @@ void loop(){
 
 >[!NOTE]
 >motor rotating direction will depend on the way we supply voltage to the two pins. Set one HIGH and set the other LOW to turn 
+
+>[!TIP]
+>If you want to control the speed of the motor, you can apply Pulse With Modulation using ledc functions
