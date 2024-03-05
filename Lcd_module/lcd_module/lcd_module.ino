@@ -8,8 +8,7 @@ void setup(){
 
   lcd.setCursor(3,0); /*Set cursor on 4th column, 
   1st row*/
-  lcd.print(“Hello World”); /*Display text from 
-  where the cursor was set*/
+  lcd.print("Hello World");
 }
 
 void loop(){

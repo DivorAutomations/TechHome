@@ -1,14 +1,16 @@
 void setup(){ 
-    pinMode(D18,OUTPUT); //configure both pin as an outputs
-    pinMode(D19,OUTPUT);
+    pinMode(18,OUTPUT); //configure both pin as an outputs
+    pinMode(19,OUTPUT);
 }
 
 void loop(){
-    digitalWrite(D18,HIGH); 
-    digitalWrite(D19, LOW); //Fan will rotate in one direction
+    digitalWrite(18,HIGH); 
+    digitalWrite(19, LOW); //Fan will rotate in one direction
 
-    delay(5000); //Wait for 5 seconds
+    // delay(5000); //Wait for 5 seconds
 
-    digitalWrite(D18, LOW); //Rotate in the other directon 
-    digitalWrite(D19, LOW);
+    // digitalWrite(18, LOW); //Rotate in the other directon 
+    // digitalWrite(19, LOW);
+
+    // delay(5000); //Wait for 5 seconds
 }
