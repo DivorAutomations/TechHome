@@ -1,12 +1,10 @@
 void setup() {
-  pinMode(D12,OUTPUT); //configure the pin as an output
+  pinMode(12,OUTPUT); //configure the pin as an output
 }
 
 void loop(){
-  digitalWrite(D12,HIGH); //Turn the LED ON
-  digitalWrite(D12, LOW); //Turn the LED OFF
-
-
-  analogWrite(D12, Number*); //Change brightness  of LED
-
+  digitalWrite(12,HIGH); //Turn the LED ON
+  delay(500);
+  digitalWrite(12, LOW); //Turn the LED OFF
+  delay(500);
 }
